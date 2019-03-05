@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewTask">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/custome_toolbar">
+    </include>
+
+    <TextView
+        android:id="@+id/TaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="47dp"
+        android:layout_weight="1"
+        android:text="@string/task_name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/UserTask"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="73dp"
+        android:hint="@string/task_hint"/>
+
+    <TextView
+        android:id="@+id/DueDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="127dp"
+        android:text="@string/due_date"/>
+
+    <EditText
+        android:id="@+id/UserDueDate"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="146dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/due_date_hint"/>
+
+
+</RelativeLayout>
+
