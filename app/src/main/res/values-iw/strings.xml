@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="add">הוסף משימה חדשה</string>
+    <string name="task_hint">רשום את המשימה כאן</string>
+    <string name="task_name">רשום את המשימה כאן</string>
+    <string name="delete">למחוק את המשימה?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="changeLanguage">שינוי שפה</string>
+    <string name = "russian"> רוסית </string>
+    <string name = "hebrew"> עברית </string>
+    <string name = "english"> אנגלית </string>
+</resources>

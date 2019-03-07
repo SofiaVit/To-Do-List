@@ -15,10 +15,35 @@
 
     <ListView
         android:id="@+id/tasksList"
-        android:paddingTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        android:paddingTop="70dp"/>
+
+    <EditText
+        android:id="@+id/TextQuickTask"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:layout_toEndOf="@+id/tasksList"
+        android:hint="@string/task_hint"
+        android:inputType="text"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </ListView>
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/TextQuickTask"
+        android:src="@drawable/ic_action_done"
+        android:onClick="AddQuickTask"/>
 
 
 </RelativeLayout>

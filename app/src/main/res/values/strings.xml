@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">ToDoList</string>
     <string name="add">Add new task</string>
+    <string name="task_hint">What you need to do?</string>
     <string name="task_name">What you need to do?</string>
-    <string name="task_hint">Write your task here</string>
-    <string name="due_date">due date</string>
-    <string name="due_date_hint">Choose due date</string>
+    <string name="delete">Delete this task?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="changeLanguage">Change language</string>
+    <string name="russian">Russian</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="english">English</string>
 </resources>

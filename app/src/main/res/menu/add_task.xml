@@ -2,8 +2,24 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/addTaskButton"
-        android:icon="@drawable/ic_action_plus"
-        android:title="@string/add"
-        app:showAsAction="always"/>
+        android:id="@+id/language"
+        android:title="@string/changeLanguage"
+        android:icon="@drawable/ic_action_language"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/English"
+                android:title="@string/english"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/Hebrew"
+                android:title="@string/hebrew"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/Russian"
+                android:title="@string/russian"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
 </menu>

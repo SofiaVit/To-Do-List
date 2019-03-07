@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name = "add">Добавить новое задание</string>
+    <string name = "task_hint"> Запишите задачу здесь</string>
+    <string name = "task_name"> Запишите задачу здесь</string>
+    <string name = "delete"> Удалить это задание?</string>
+    <string name = "yes">Да</string>
+    <string name = "no">Нет</string>
+    <string name = "changeLanguage">Изменить язык</string>
+    <string name = "russian"> русский </string>
+    <string name = "hebrew"> иврит </string>
+    <string name = "english"> английский </string>
+</resources>
